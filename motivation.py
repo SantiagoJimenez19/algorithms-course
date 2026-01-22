@@ -1,3 +1,4 @@
+#Estas funciondes las vimos el 21/enero/2026
 import random
 
 def generate_random_list(length, min_val=-10, max_val=10):
@@ -5,9 +6,7 @@ def generate_random_list(length, min_val=-10, max_val=10):
     return [random.randint(min_val, max_val) for _ in range(length)]
 
 def max_subarray_bruteforce(A):
-    n = len(A)
-    if n == 0:
-        return 0, -1, -1  
+    n = len(A)py
     max_sum = float('-inf')
     best_start = -1
     best_end = -1
